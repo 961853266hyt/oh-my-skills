@@ -1,0 +1,32 @@
+workspace:
+  name: "Your workspace"
+
+team:
+  name: "Your team"
+  key: "TEAM"
+
+default_template: "default"
+
+templates:
+  default:
+    name: "Default issue"
+    service: "general"
+    defaults:
+      labels: []
+      state: "Todo"
+    description_template: |
+      ## What
+
+      Describe what needs to be built, fixed, or changed.
+
+      ## Why
+
+      Explain why this matters.
+
+      ## Acceptance Criteria
+
+      - Define the expected result.
+
+      ## Notes
+
+      Add relevant links, screenshots, pages, components, API details, or extra context.

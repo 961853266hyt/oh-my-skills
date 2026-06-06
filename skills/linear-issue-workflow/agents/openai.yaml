@@ -1,0 +1,15 @@
+interface:
+  display_name: "Linear Issue Workflow"
+  short_description: "Automate Linear issue workflows for small teams"
+  default_prompt: "Use $linear-issue-workflow to create a Linear issue for this request."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "linear"
+      description: "Linear MCP server for creating and updating issues"
+      transport: "streamable_http"
+      url: "https://mcp.linear.app/mcp"
+
+policy:
+  allow_implicit_invocation: true
