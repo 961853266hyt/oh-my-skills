@@ -5,28 +5,32 @@ team:
   name: "Your team"
   key: "TEAM"
 
-default_template: "default"
+default_template: "web-agent"
 
 templates:
-  default:
-    name: "Default issue"
-    service: "general"
+  web-agent:
+    name: "Web issue for agent"
+    service: "web"
     defaults:
       labels: []
       state: "Todo"
     description_template: |
-      ## What
+      ## 1. Buggy DOM Node Context
 
-      Describe what needs to be built, fixed, or changed.
+      Tip for humans: use react-grab, Chrome DevTools, or a similar tool to copy and paste the relevant problem node context here.
 
-      ## Why
+      ## 2. Steps to Reproduce
 
-      Explain why this matters.
+      Describe the steps needed to reproduce this issue.
 
-      ## Acceptance Criteria
+      ## 3. Figma MCP Link
 
-      - Define the expected result.
+      Tip for humans: copy and paste the MCP link for the corresponding design node here.
 
-      ## Notes
+      ## 4. Page URL
 
-      Add relevant links, screenshots, pages, components, API details, or extra context.
+      Provide the URL of the page where the bug appears.
+
+      ## 5. Expected Behavior
+
+      Describe the expected behavior for this issue.
