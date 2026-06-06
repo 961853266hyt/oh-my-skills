@@ -30,6 +30,12 @@ npx skills add 961853266hyt/oh-my-skills <skill-name>
 
 Automate Linear issue workflows for small teams by helping product, QA, and engineering collaborate through agent-ready issues.
 
+**When to use**
+
+- Product or QA needs an agent to turn a bug report or request into a structured Linear issue.
+- Engineering wants Linear issues that are ready to copy as prompts for coding agents.
+- Small teams want a lightweight workflow that reduces repeated clarification between product, QA, and engineering.
+
 ```mermaid
 flowchart LR
   A["Product / QA works with an agent"] --> B["Agent uses linear-issue-workflow skill"]
