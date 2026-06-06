@@ -5,6 +5,16 @@ team:
   name: "Your team"
   key: "TEAM"
 
+project:
+  name: "Your project"
+
+assignee:
+  default: null
+
+priority:
+  enabled: true
+  default: null
+
 default_template: "web-agent"
 
 templates:
@@ -14,6 +24,13 @@ templates:
     defaults:
       labels: []
       state: "Todo"
+      project: "Your project"
+      assignee: null
+      priority: null
+      links:
+        attach_page_url: true
+        attach_figma_url: true
+        attach_screenshot_urls: true
     description_template: |
       Tool names in this template are examples, not requirements. Use the equivalent tools already adopted by your team.
 
