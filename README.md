@@ -2,6 +2,28 @@
 
 A personal collection of skills that I have found useful.
 
+Skills follow the [Agent Skills format](https://agentskills.io/home).
+
+## Installation
+
+Install all skills from this repository:
+
+```bash
+npx skills add 961853266hyt/oh-my-skills --all
+```
+
+List available skills before installing:
+
+```bash
+npx skills add 961853266hyt/oh-my-skills --list
+```
+
+Install a single skill:
+
+```bash
+npx skills add 961853266hyt/oh-my-skills <skill-name>
+```
+
 ## Skills
 
 ### `linear-issue-workflow`
@@ -15,3 +37,7 @@ flowchart LR
   C --> D["Developer copies issue as prompt"]
   D --> E["Agent helps resolve it"]
 ```
+
+## License
+
+MIT
