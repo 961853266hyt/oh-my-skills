@@ -15,6 +15,8 @@ templates:
       labels: []
       state: "Todo"
     description_template: |
+      Tool names in this template are examples, not requirements. Use the equivalent tools already adopted by your team.
+
       ## 1. Buggy DOM Node Context
 
       Tip for humans: use react-grab, Chrome DevTools, or a similar tool to copy and paste the relevant problem node context here.
